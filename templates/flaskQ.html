@@ -1,0 +1,27 @@
+<!-- flaskQ.html -->
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/static/css/style.css">
+        <title>flaskQ</title>
+    </head>
+    <body>
+        <h1 class="title">P-semi:Flask</h1>
+        <ul class="print_n">
+            {%for x in numbers%}
+                <li>{{x}}</li>
+            {% endfor %}
+        </ul>
+
+        <p class="profile">{{ "name: %s age: %s address: %s" %(dic["name"], dic["age"], dic['address'])}}</p>
+
+
+        {% if gender %}
+            <p>male</p>
+        {% else %}
+            <p>female</p>
+        {% endif %}
+
+    </body>
+</html>

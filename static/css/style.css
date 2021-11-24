@@ -1,0 +1,23 @@
+/* style.css */
+.print_n{
+    background: #7fa984;
+    text-align: center;
+    border: 2px solid #89b0da;
+    margin 10px auto;
+}
+
+.profile{
+    background: 9fdc69;
+    text-align: text-left;
+    border: 2px solid #000000;
+    margin 20px auto;
+    font-family: "fantasy", "游ゴシック";
+}
+
+.title {
+    color: #a68ed9;
+    font-family: "Monotype Corsiva";
+    margin 30px auto;
+    text-align: center;
+    padding: 20px 0;
+}
